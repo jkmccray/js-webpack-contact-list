@@ -21,11 +21,11 @@ export default {
     nameSection.appendChild(nameLabel)
     nameSection.appendChild(nameInput)
     contactFormContainer.appendChild(phoneNumSection)
-    nameSection.appendChild(phoneNumLabel)
-    nameSection.appendChild(phoneNumInput)
+    phoneNumSection.appendChild(phoneNumLabel)
+    phoneNumSection.appendChild(phoneNumInput)
     contactFormContainer.appendChild(addressSection)
-    nameSection.appendChild(addressLabel)
-    nameSection.appendChild(addressInput)
+    addressSection.appendChild(addressLabel)
+    addressSection.appendChild(addressInput)
     contactFormContainer.appendChild(saveBtn)
   },
   saveNewContact() {
