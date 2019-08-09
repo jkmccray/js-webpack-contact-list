@@ -2,32 +2,32 @@
   "contacts": [
     {
       "name": "Aang",
-      "phone-number": "472-128-4921",
-      "address": "112 Southern Air Temple Way"
+      "phoneNumber": "472-128-4921",
+      "address": "112 Southern Air Temple Blvd"
     },
     {
       "name": "Katara",
-      "phone-number": "572-495-7220",
+      "phoneNumber": "572-495-7220",
       "address": "100 South Pole Drive"
     },
     {
       "name": "Sokka",
-      "phone-number": "228-462-9572",
+      "phoneNumber": "228-462-9572",
       "address": "200 South Pole Drive"
     },
     {
       "name": "Toph",
-      "phone-number": "729-925-1049",
+      "phoneNumber": "729-925-1049",
       "address": "600 Ba Sing Sei Way"
     },
     {
       "name": "Zuko",
-      "phone-number": "382-502-9174",
+      "phoneNumber": "382-502-9174",
       "address": "500 Fire Nation Ave"
     },
     {
       "name": "Iroh",
-      "phone-number": "482-980-7328",
+      "phoneNumber": "482-980-7328",
       "address": "600 Fire Nation Ave"
     }
   ]

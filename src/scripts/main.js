@@ -1,10 +1,12 @@
 import API from "./contactCollection.js"
+import renderContacts from "./contactList.js"
 import contactForm from "./contactForm.js"
 
 const contactFormContainer = document.querySelector("#contact-form")
+const contactListContainer = document.querySelector("#contact-list-container")
 
 
 API.getAllContactData()
-  .then(data => console.log(data))
-
-// contactFormContainer.appendChild(contactForm.nameSection)
+  .then(contacts => {
+      renderContacts.renderContacts(contacts)
+    })

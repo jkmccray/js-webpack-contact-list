@@ -1,9 +1,14 @@
-// import contact from "./contact.js"
+import createContact from "./contact.js"
+import API from "./contactCollection.js"
+
 
 const contactListContainer = document.querySelector("#contact-list-container")
 
 export default {
-  renderContacts(contacts) {
-    const each
+  renderContacts() {
+    API.getAllContactData()
+      .then(contacts => {
+        contacts.forEach(contact => contactListContainer.appendChild(createContact(contact)))
+      })
   }
 }
