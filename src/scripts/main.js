@@ -1,5 +1,10 @@
-const message = "Your Webpack application is set up and ready to go. Please start writing code."
+import API from "./contactCollection.js"
+import contactForm from "./contactForm.js"
 
-document.querySelector("#container").innerHTML = `<h1>${message}</h1>`
+const contactFormContainer = document.querySelector("#contact-form")
 
-console.log(message)
+
+API.getAllContactData()
+  .then(data => console.log(data))
+
+// contactFormContainer.appendChild(contactForm.nameSection)
