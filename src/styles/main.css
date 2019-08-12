@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+fieldset {
+  margin: 5px 10px;
+  padding: 5px 10px;
+}
+
+input {
+  padding: 3px;
+}
+
+button {
+  margin: 5px 10px;
+  padding: 5px;
+}
+
+.address-section {
+  border: 1px solid gray;
+  margin: 5px 10px;
+  padding: 10px;
+  box-shadow: 1.5px 1.5px lightgray;
+  border-radius: 4px;
+  background-color: goldenrod;
+  color: whitesmoke;
+}
+

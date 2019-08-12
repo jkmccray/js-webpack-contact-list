@@ -14,7 +14,7 @@ export default {
     const phoneNumLabel = elFactory("label", { for: "phoneNumber" }, "Phone Number ")
     const phoneNumInput = elFactory("input", { type: "text", id: "phoneNumber", placeholder: "Phone Number", autofocus: true })
     const addressSection = elFactory("fieldset")
-    const addressLabel = elFactory("label", { for: "address" }, "Address ")
+    const addressLabel = elFactory("label", { for: "address" }, "Street Address ")
     const addressInput = elFactory("input", { type: "text", id: "address", placeholder: "Address" })
     const saveBtn = elFactory("button", { id: "saveContact" }, "Save Contact")
     contactFormContainer.appendChild(nameSection)
